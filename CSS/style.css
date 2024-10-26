@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    background-color: #f3a20caf;
+}
+
+.section1 {
+    /* min-height: 100vh; */
+    /* max-width: 100vw; */
+    background-color: #faa404;
+    background-image: url(../IMAGES/orange-backdrop\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section1 .Rakhi {
+    width: 200px;
+}
+
+.audio-para {
+    margin-top: -199px;
+    margin-left: 211px;
+}
+
+.section1 p {
+    font-family: Salsa, cursive;
+    max-width: 500px;
+    font-size: 42px;
+}
+
+.audio {
+    /* max-width: 500px; */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    background-color: #fbd8a4;
+    border-radius: 30px;
+}
+
+.audio span {
+    font-size: 15px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #fbd8a4;
+}
+
+/* second section */
+.section2 {
+    background-color: #f3a20caf;
+    padding: 16px;
+}
+
+.horizontal-devider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 12px;
+    margin-top: -6px;
+    padding-bottom: 15px;
+}
+
+.horizontal-devider .hr-line {
+    display: inline-flex;
+    border-radius: 10px;
+    width: 380px;
+    background-color: white;
+    height: 4px;
+}
+
+.horizontal-devider .hr-circle {
+    display: inline-flex;
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.section2 img {
+    /* max-width: ; */
+    width: 100%;
+
+}
+
+.section2 .p {
+    display: flex;
+}
+
+.section2 .p p {
+    display: inline-flex;
+    font-family: cursive;
+    font-size: 1.6rem;
+    margin: auto;
+    word-spacing: 24px;
+    padding-bottom: 2px;
+}
+
+.section3 {
+    background-color: #f3a20caf;
+}
+
+.section3 .devider {
+    padding-bottom: 55px;
+}
+
+.contents-s3 {
+    display: flex;
+}
+
+.section3 .paragraph {
+    display: inline-flex;
+    margin: auto;
+}
+
+.section3 .paragraph p {
+    display: inline-flex;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 38px 20px 60px;
+    font-size: 26px;
+    margin: auto;
+    font-weight: 600;
+    width: 100%;
+    max-width: 290px;
+}
+
+.section3 .img {
+    display: inline-flex;
+}
+
+.section3 img {
+    width: 200px;
+    margin-left:-510px;
+    padding-bottom: 20px;
+}
+
+.section4 .devider4 {
+    padding-top: 10px;
+}
+
+.section4 .img {
+    display: flex;
+    justify-content: center;
+}
+
+.section4 img {
+    width: 90%;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.section4 h3 {
+    font-family: sans-serif;
+    margin-left: 40PX;
+}
+
+.section4 h2 {
+    font-family: cursive;
+    font-size: 34PX;
+    margin-top: 0;
+    margin-left: 40PX;
+}
+.love{
+    text-align: right;
+    margin-right: 20px;
+    font-size: 14px;
+}
+#receiver{
+    margin-left: 10px;
+    font-family:  fantasy;
+    font-size: 49px;
+    color: #f43a07fd;
+    letter-spacing: 1.2px;
+    filter: blur(.5px);
+    text-shadow: 2px 2px 2px rgb(13, 0, 255);
+}
+#sender{
+    margin-left: 10px;
+    font-family:  fantasy;
+    font-size: 16px;
+    color: #f407e4fd;
+    letter-spacing: 1.2px;
+    text-shadow: 1px 1px 2px cyan;
+}
+
+footer {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    background-color: #a98b8b;
+}
+
+footer span {
+    display: inline-flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+footer .name {
+    margin-left: 10px;
+    color: black;
+    text-shadow: 0 2px 3px cyan,
+              1px 1px 20px cyan;
+}
+
+/* //mobile view responsive */
+@media (max-width:1050px) {
+    .section3 img {
+        margin-left:-110px;
+    }
+}
+@media (max-width:850px) {
+    .section1 .Rakhi {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .section1 p {
+        font-family: Salsa, cursive;
+        max-width: 350px;
+        font-size: 30px;
+    }
+
+    .audio-para {
+        margin-top: 0;
+        margin-left: 1rem;
+    }
+
+    .section1 .audio {
+        gap: 10px;
+    }
+
+    .section1 .audio audio {
+        max-width: 250px;
+    }
+
+    .audio p,
+    .deep2 {
+        display: none;
+    }
+
+    .deep1 {
+        display: block;
+        margin-left: auto;
+        max-width: 350px;
+    }
+
+}
+
+@media (max-width:430px) {
+    .deep1 {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width:500px) {
+    .section4 h3{
+        font-size: 15px;
+    }
+    .section4 h2{
+        font-size: 25px;
+    }
+    footer span{
+        font-size: 15px;
+        margin: 6px;
+    }
+}

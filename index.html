@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="CSS/style.css" class="css">
+    <title>Diwali Wishes Project</title>
+</head>
+
+<body>
+    <!-- first section started-->
+    <section class="section1">
+        <!-- <img src="./IMAGES/orange-backdrop 1.png" alt=""> -->
+        <img class="Rakhi" src="./IMAGES/Rakhi.png" alt="">
+
+        <div class="audio-para">
+            <p>
+                Hi, <span id="receiver"></span>
+                <br>
+                You mean the world to me...
+                So this Diwali,
+                I made something for you!
+            </p>
+            <div class="audio">
+                <img src="./IMAGES/music.svg" height="30px" alt="">
+                <span>Soulful Music</span>
+                <img src="./IMAGES/Group 5.png" height="30px" width="35px" alt="">
+                <audio src="./" controls></audio>
+            </div>
+        </div>
+        <div class="deepak">
+            <img class="deep1" src="./IMAGES/deepak.png" alt="">
+            <img class="deep2" src="./IMAGES/deepak.png" alt="">
+        </div>
+    </section>
+    <!-- first section ends-->
+
+    <!-- second section started-->
+    <section class="section2">
+        <div class="horizontal-devider">
+            <div class="hr-line"></div>
+            <div class="hr-circle"></div>
+            <div class="hr-circle"></div>
+            <div class="hr-circle"></div>
+            <div class="hr-line"></div>
+        </div>
+        <img src="./IMAGES/lakshmi maa and ganesh ji 1.png" alt="">
+        <div class="p">
+            <p>Wishing You a Blessed and Prosperous Deepawali</p>
+        </div>
+    </section>
+    <!-- second section ends-->
+
+    <!-- third section started-->
+    <section class="section3">
+        <div class="horizontal-devider devider">
+            <div class="hr-line"></div>
+            <div class="hr-circle"></div>
+            <div class="hr-circle"></div>
+            <div class="hr-circle"></div>
+            <div class="hr-line"></div>
+        </div>
+        <div class="contents-s3">
+            <div class="paragraph">
+                <p>
+                    People say, "Diwali is the
+                    festival of lights."
+                    <br><br>
+                    You know what, I can feel the
+                    positivity and happiness. My
+                    goal is to learn web
+                    development and i'm learning
+                    everyday, even today!
+                </p>
+            </div>
+            <div class="img">
+                <img src="./IMAGES/little-girl 1.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- third section ends-->
+
+    <!-- fourth section started -->
+    <section class="section4">
+        <div class="horizontal-devider devider4">
+            <div class="hr-line"></div>
+            <div class="hr-circle"></div>
+            <div class="hr-circle"></div>
+            <div class="hr-circle"></div>
+            <div class="hr-line"></div>
+        </div>
+        <div class="img">
+            <img src="./IMAGES/Ganesh and lakshmi.png" alt="">
+        </div>
+        <h3>Happy Diwali and,</h3>
+        <h2>Thank You For Everything...</h2>
+<p class="love">Made with ❤️ by <span id="sender"></span></p>
+
+    </section>
+    <!-- fourth section ends -->
+
+<footer>
+    <span> &copy Copyright 2024 | All right reserved by <span class="name">The Dark World</span> </span>
+</footer>
+
+    <!-- script section -->
+<script>
+
+    const receiverName = document.querySelector("#receiver");
+    
+    const senderName = document.querySelector("#sender");
+    
+    receiverName.innerText = new URLSearchParams(location.search).get("r");
+    
+    senderName.innerText = new URLSearchParams(location.search).get("s") || 'Himanshu tiwari';
+    
+    </script>
+
+</body>
+
+</html>
